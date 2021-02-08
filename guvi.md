@@ -1,34 +1,41 @@
-# Data structure
+# Data structures
 
-# How to calculate running time of an algorithm>
+In simpler terms data structures is helps us to store, access and manage the data effeciently. Data is nothing but eveything we feed into the system as input.
 
-There are two ways to calculate running time experimental methods and analytical method.
+Lets take a Travel analogy, There are different mode of transport available, Air, train, Road. We can't take train or aircraft when we want to go to next street. it's not efficient. like wise if we want to carry lot's of passenger we can't depend on the bus. if we want to go the location immediently where time is important likely we choose air travel. as whole method of chossing the container (mode of transport) is called Datastructure.
 
-Experimental method:
-	We implement algorithm on specific language and run it with diffrent input and record running time of algorithm.
+* Data structure main thing to consider - Capacity and its effiecent usage
+* Algorithm - Effienceny and design
+* Algorithm analysis - Size complexity, Time complexity
 
-There are two challenges with this method, 1. software & hardware running the program. so it's depend method. some time result might not we expected.
+  * Worst case: Algortiham takes maximum running time for the input size to execute. The worst case analysis is useful because algorithm can't execute in a time that is greater than the worst case.
+  * Average case: Calculating average case is difficult, because it varies based on input size.
+  * Best case: Minimum running time takes for the program to run, this is not much informative since it doesn't show the real execution time of an algorithm.
 
-Analytical method:
-	It's a theroratical approach, we analyze running time based on input.
+  * Predict algortihm performance
+  * Scalability
+  * How it's behave for different algorithms.
+  * Algorithm affects datastructure performance.
+  * Program = Algorithm + Data structure
 
-Worst case analysis:
-	To understand how an algorithm can perfrom on different size of input we need to analyze algorithm on different cases.
+## Abstract Data type (ADT)
 
-it's is a case when an algorithm will take a maximum running time for input size n to execute. 
+In order to drive a car we no need to be a mechanic. we need to know only the essential to drive the vechicle. at the same time we don't learn all the car model in the world to get licence.
 
-let's say if we are searching an element in an array using a searching algorithm then if an element is found at the last index then it's a worst-case for the algorithm. so generally we consider an input for which the algorithm takes the longest time to execute.
+ADT basically hide the details and give only essential. EX: List - Pop, delete, add
 
-The worst case is very informative and is usually done because an algorithm can't execute in a time that is greater than the worst case.
+## Linear Search
 
-Best case analysis:
-	Algorithm take minimum running time for an input size. 
-this case is not very informative because it's doesn't show the real execution time of an algorithm.
+Operation count(O) increase exactly with the number of elements(n). If i have 1 trash bag, i have to take out trash once, so it's O(1). if it's two trash bag O(2) like wise O(n).
 
-generally it's very difficult to compute the average case. because the input size is very. 
+When we want to find the number in the list, best case for linear search is O(1),because the element can be first in the list.
+The average and worst case always linked with size (length of the list) so the time complexity will be O(n)
 
-Big O notation: Tool to compare efficinency of algorithm. It represents upper bound of an algorithm.
+## Binary Search
 
+For a binary search, the best case O(1). The item located in mid point. The worst and average case is O(log n).
+Log is a way of experessing an exponent for a given base. so if there are 16 elements, it would take worst case 4 steps to find the number 15.
 
+## Bubble sort, insertion sort, selection sort
 
-
+O(n^2) 
