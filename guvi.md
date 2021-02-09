@@ -22,7 +22,42 @@ Lets take a Travel analogy, There are different mode of transport available, Air
 
 In order to drive a car we no need to be a mechanic. we need to know only the essential to drive the vechicle. at the same time we don't learn all the car model in the world to get licence.
 
-ADT basically hide the details and give only essential. EX: List - Pop, delete, add
+ADT basically hide the details and give only essential and it helps to hold the set of values objects can have. EX: List - Pop, delete, add
+
+ADT = Properties + Operations it's equicvalent to Class in OOPS.
+
+Propertiy = List, Operation = Pop, add, delete.
+
+sqrt(int 10) = sqrt is the operation, int is the propery, 10 is the object
+
+ADT is formal description. It's design by contract.
+
+Data represesntation in ADT : 
+
+* Make all data private
+* Use getters and setters to modify the value with condition.
+
+
+## Big O Notations
+
+How effieciently you are solving the problem, big O helps to define that.
+
+n - just for loop
+n^2 - Two for loop
+log(n) - Divide in half or multiple by double
+n^3 - Three for loop
+
+* O(1) - constant - 1 - Array index Lookup
+* O(log n) - Logartithmic - log(n) - If the input size doubles the run time increase by one - Binary search
+* O(n) - Linear  - n - if the input size diubles run time doubles - Sequential search
+* O(n log n) - N-Log n - n log n - heap sort
+* O(n^2) - Quadratic - n^2 - if the input size doubles runtime quadupls - Bubble sort
+* O(n^3), O(n^c) - Cubic - n^3
+* O(c^n) - Exponential - 2^n - If the input size increase by one, the run time doubles - Traveling salesman
+* O(n!) - n! - Brutforc traveling salesman
+* O(n^n)
+
+
 
 ## Linear Search
 
