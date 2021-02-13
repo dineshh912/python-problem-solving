@@ -32,32 +32,40 @@ sqrt(int 10) = sqrt is the operation, int is the propery, 10 is the object
 
 ADT is formal description. It's design by contract.
 
-Data represesntation in ADT : 
+Data represesntation in ADT :
 
 * Make all data private
 * Use getters and setters to modify the value with condition.
 
-
 ## Big O Notations
 
 How effieciently you are solving the problem, big O helps to define that.
+
+Big O Known as Worst-case scenario of a program. given a very large input the big-o will give us an idea of how slow our algorithm may run.
 
 n - just for loop
 n^2 - Two for loop
 log(n) - Divide in half or multiple by double
 n^3 - Three for loop
 
-* O(1) - constant - 1 - Array index Lookup
-* O(log n) - Logartithmic - log(n) - If the input size doubles the run time increase by one - Binary search
-* O(n) - Linear  - n - if the input size diubles run time doubles - Sequential search
-* O(n log n) - N-Log n - n log n - heap sort
-* O(n^2) - Quadratic - n^2 - if the input size doubles runtime quadupls - Bubble sort
-* O(n^3), O(n^c) - Cubic - n^3
+* O(1) - Constant Time - 1 - Array index Lookup
+* O(log n) - Logartithmic Time - log(n) - If the input size doubles the run time increase by one - Binary search
+* O(n) - Linear Time  - n - if the input size diubles run time doubles - Sequential search
+* O(n log n) - Superlinear Time - n log n - heap sort
+* O(n^2) - Quadratic Time - n^2 - if the input size doubles runtime quadupls - Bubble sort
+* O(n^3), O(n^c) - Cubic Time / Polynomial Time - n^3
 * O(c^n) - Exponential - 2^n - If the input size increase by one, the run time doubles - Traveling salesman
 * O(n!) - n! - Brutforc traveling salesman
 * O(n^n)
 
+## Big-Omega
 
+Big omega known as best case, it's not very informative because it won't give actual run time of the program. While Big-O gives upper bound
+Big-Omega gives lower bound. This shows how fast our algorithm can run.
+
+## Big-Theta
+
+Big-Theta is average case runnning time. It's a mean running time of our algorithm.
 
 ## Linear Search
 
@@ -73,4 +81,4 @@ Log is a way of experessing an exponent for a given base. so if there are 16 ele
 
 ## Bubble sort, insertion sort, selection sort
 
-O(n^2) 
+O(n^2)
