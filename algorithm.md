@@ -34,3 +34,12 @@
   * compute(a+b)*(c+d)
   * Subtract third step result with first two steps 
   * Add step 1, 2, 4 after adding 10^n trailing zero to step 1, 10n/2 trailing zero to step 4
+
+#### Merge sort
+
+* Divide and conquer algorithm
+* Basic idea is break problem into smaller sub problems, solve the small problems and combine
+* Input : Array of N - numbers
+* Output :  Array of same numbers, sorted from smallest to largest
+* 
+

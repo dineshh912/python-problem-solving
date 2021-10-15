@@ -5,7 +5,6 @@ compare the current element with largest value available in the sorted array.
 
 if the current element is greater, leave the element or find the corrent possition in the sorted array. 
 
-
 """
 
 def insertion_sort(arr):
