@@ -35,7 +35,8 @@ class Solution:
 
         A = []
         B = []
-
+        
+        
         for i in range(len(s1)):
 
             # if the characte is differenr
