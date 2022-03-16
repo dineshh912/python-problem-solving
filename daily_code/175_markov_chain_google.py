@@ -1,5 +1,4 @@
 """
-
 This problem was asked by Google.
 
 You are given a starting state start, a list of transition probabilities for a Markov chain, and a number of steps num_steps.
@@ -22,3 +21,6 @@ For example, given the starting state a, number of steps 5000, and the following
 One instance of running this Markov chain might produce { 'a': 3012, 'b': 1656, 'c': 332 }
 
 """
+
+def markov_chain():
+    pass
