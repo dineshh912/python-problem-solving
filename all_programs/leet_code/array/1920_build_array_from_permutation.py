@@ -33,7 +33,13 @@ The elements in nums are distinct.
 """
 
 def buildArray(nums):
-    pass
+    
+    ans = []
+    for i in range(len(nums)):
+        ans.append(nums[nums[i]])
+
+    return ans
+
 
 
 if __name__ == "__main__":
