@@ -37,5 +37,5 @@ The words in s are separated by a single space.
 There are no leading or trailing spaces.
 
 """
-
- def truncateSentence(self, s: str, k: int) -> str:
+def truncateSentence(self, s: str, k: int) -> str:
+        return ' '.join(s.split(' ')[:k])
