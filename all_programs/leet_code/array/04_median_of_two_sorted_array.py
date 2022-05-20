@@ -14,10 +14,6 @@
 
 """
 # Method 1
-
-from django.urls import translate_url
-
-
 def findMedianSortedArray(nums1, nums2):
 
     sorted_list = sorted(nums1 + nums2)
