@@ -27,4 +27,5 @@ Constraints:
 4 <= nums.length <= 104
 1 <= nums[i] <= 104
 """
-def maxProductDifference(self, nums: List[int]) -> int:
+def maxProductDifference(self, nums):
+    pass
