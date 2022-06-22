@@ -1,13 +1,11 @@
 """
-Given an array of integers, return a new array such that each element at index i of the new array is
-the product of all the numbers in the original array expect the one at i.
+This problem was asked by Uber.
 
-input: [1, 2, 3, 4, 5] 
-output: [120, 60, 40, 30, 24]
+Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
 
-input: [3, 2, 1]
+For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
 
-output: [2, 3, 6]
+Follow-up: what if you can't use division?
 
 """
 # Method 1
