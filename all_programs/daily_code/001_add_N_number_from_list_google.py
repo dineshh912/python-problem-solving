@@ -19,7 +19,6 @@ def two_sum(list_of_numbers, k):
 
             if i !=j and list_of_numbers[i] + list_of_numbers[j] == k: 
                 # if both number not same and added value gives k then return true
-
                 return True
     
     return False
